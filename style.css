@@ -116,18 +116,128 @@
     
 }
 
+.am{
+    color:white;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left:200px;
+    top:300px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
 
-@media screen and (max-width:1300px){
+.mob{
+    color:white;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left:200px;
+    top:300px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+
+.mob1{
+    color:white;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left:200px;
+    top:300px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+
+.am1{
+    color:white;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left:200px;
+    top:300px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+
+}
+
+#book{
+    font-family: Arial, Helvetica, sans-serif;
+    position:absolute;
+    left:57.7em;
+    top:210px;
+}
+
+#book1{
+    font-family: Arial, Helvetica, sans-serif;
+    position:absolute;
+    left:57.7em;
+    top:210px;
+}
+
+#book2{
+    font-family: Arial, Helvetica, sans-serif;
+    position:absolute;
+    left:57.7em;
+    top:210px;
+}
+
+#phone{
+    font-family: Arial, Helvetica, sans-serif;
+    position:absolute;
+    left:57.7em;
+    top:210px;
+}
+
+#phone1{
+    font-family: Arial, Helvetica, sans-serif;
+    position:absolute;
+    left:57.7em;
+    top:210px;
+}
+
+#phone2{
+    font-family: Arial, Helvetica, sans-serif;
+    position:absolute;
+    left:57.7em;
+    top:210px;
+}
+
+
+
+
+
+@media screen and (min-width:1px) and (max-width:605px){
 
     .bg-color{
         border-radius:10px;
         height:500px;
-        width:400px;
+        width:600px;
         top:100px;
         left:-1px;
         background-repeat: no-repeat;
 
     }
+
+    .view{
+        left:110px;
+        top:680px;
+        position: absolute;
+        line-height: 26px;
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 20px;
+        letter-spacing: -1px;
+    }
+
+    
+    .lap{
+        display: none;
+    }
+
+    .mob{
+        top:270px;
+        font-size:20px;
+        letter-spacing: -1px;
+        line-height: 20px;
+        margin-left:-120px;
+    }
+
 
     .bg-color1{
         left:1px;
@@ -143,7 +253,7 @@
     }
 
     .heading1{
-        left:30px;
+        left:80px;
         top:130px;
         font-size:42px;
         color:white;
@@ -151,6 +261,7 @@
         position: absolute;
         font-weight: bold;
         line-height: 38px;
+        
         
     }
 
@@ -167,15 +278,16 @@
         color:white;
         font-size:17px;
         font-family: Arial, Helvetica, sans-serif;
+        display:none;
     }
 
     .image{
-        left:30px;
+        left:65px;
         top:410px;
     }
 
     .image1{
-        left:30px;
+        left:65px;
         top:480px;
     }
 
@@ -191,11 +303,20 @@
         color:white;
         font-family: Arial, Helvetica, sans-serif;
         position: absolute;
+        display:none;
     }
 
     .feature{
         left:110px;
         top:580px;
+        font-size: 26px;
+    }
+
+    .mob1{
+        top:394px;
+        left:120px;
+        line-height: 45px;
+        font-size: 16px;
     }
 
     
@@ -238,14 +359,15 @@
         position: absolute;
         font-weight: bold;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 31px;
+        font-size: 40px;
         
     }
 
     #menu{
         position: absolute;
         top:31px;
-        left:340px;
+        left:500px;
+        
     }
 
     #media{
@@ -254,6 +376,7 @@
         position: absolute;
         line-height: 26px;
         font-family: Arial, Helvetica, sans-serif;
+        display: none;
     }
 
     #media1{
@@ -262,6 +385,7 @@
         position: absolute;
         line-height: 26px;
         font-family: Arial, Helvetica, sans-serif;
+        display: none;
     }
 
     #media2{
@@ -270,140 +394,245 @@
         position: absolute;
         line-height: 26px;
         font-family: Arial, Helvetica, sans-serif;
+        display:none;
+    }
+
+    .am{
+        display:none;
+    }
+    .am1{
+        display: none;
     }
 
 }
 
-@media screen and (min-width:1024px) and (max-width:1366px){
+@media screen and (min-width:1469px) and (max-width:1871px){
+
     .bg-color{
-        position: absolute;
-        width:1030px;
+        width:100%;
+    }
+    .am{
+        display:none;
+    }
+    .am1{
+        display: none;
     }
 
-    .heading1{
-        left:250px;
-        /* position: absolute; */
+    #book{
+        display:none;
     }
 
-    .lorem1{
-        left:250px;
+    #book1{
+        display:none;
     }
 
-    #menu{
-        left:900px;
+    #book2{
+        display:none;
     }
 
-    .logo{
-        left:100px;
+    .mob{
+        display:none;
     }
 
-    .image{
-        left:250px;
+    .mob1{
+        display:none;
     }
 
-    .image1{
-        left:250px;
+    .view{
+        display:none;
     }
-
-    .paragraph1{
-        left:305px;
-    }
-
-    .feature{
-        left:360px;
-        top:560px;
-    }
-
-    #media{
-        left:360px;
-    }
-
-    #media1{
-        left:360px;
-    }
-
-    #media2{
-        left:360px;
-    }
-
-    .image2{
-      left:245px;
-    }
-
-    .image3{
-        left:245px;
-      }
-
-      .image4{
-        left:245px;
-      }
 }
 
-@media screen and (min-width:768px) and (max-width:1024px){
+@media screen and (min-width:605px) and (max-width:1469px){
 
     .bg-color{
         position: absolute;
-        width:766px;
+        width:95em;
+        height:900px;
+        top:160px;
+        border-radius:15px;
+    }
+
+    .mob1{
+        display:none;
+    }
+
+    .mob{
+        display:none;
+    }
+
+    .view{
+        display:none;
+    }
+
+
+    .paragraph{
+        display: none;
+    }
+
+    .image5{
+        display: none;
+    }
+
+    .bg-color1{
+        display:none;
     }
 
     .heading1{
-        left:200px;
-        /* position: absolute; */
+        display:none;
     }
-
+    
     .lorem1{
-        left:200px;
+        display:none;
     }
+    
+    .paragraph1{
+        display:none;
+    } 
+
 
     #menu{
-        left:700px;
+        left:85em;
+        position: absolute;
+        top:20px;
+        height:80px;
+        width:80px;
     }
 
     .logo{
         left:100px;
-    }
+        position: absolute;
+        font-size:61px;
+        font-weight: bold;
+        top:30px;
+        font-family: Arial, Helvetica, sans-serif;
 
-    .image{
-        left:200px;
-    }
-
-    .image1{
-        left:200px;
-    }
-
-    .paragraph1{
-        left:260px;
     }
 
     .feature{
-        left:300px;
-        top:560px;
+        left:650px;
+        top:1100px;
+        font-size:50px;
+        line-height: 200px;
     }
 
     #media{
-        left:300px;
+        left:110px;
+        top:680px;
+        position: absolute;
+        line-height: 26px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        display: none;
     }
 
     #media1{
-        left:300px;
+        left:110px;
+        top:850px;
+        position: absolute;
+        line-height: 26px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        display: none;
     }
 
     #media2{
-        left:300px;
+        left:110px;
+        top:1020px;
+        position: absolute;
+        line-height: 26px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        display: none;
+    }
+
+    #para{
+        display:none;
+        
+    }
+
+    #para1{
+        display:none;
+        
+    }
+
+    #para2{
+        display:none;
+        
     }
 
     .image2{
-    left:195px;
-    top:680px;
+    left:500px;
+    top:80em;
+    height:100px;
+    width:100px;
     }
 
     .image3{
-        left:195px;
-        top:840px;
+        left:500px;
+        top:95em;
+        height:100px;
+        width:100px;
       }
 
     .image4{
-     left:195px;
-     top:1000px;
+        left:500px;
+        top:110em;
+        height:100px;
+        width:100px;
       }
+
+    .heading{
+        margin-left:320px;
+        top:200px;
+        position:absolute;
+        line-height: 50px;
+        font-size: 50px;
+    }
+
+    .am{
+        font-size:30px;
+        position: absolute;
+        top:400px;
+        margin-left:320px;
+        line-height: 30px;
+        letter-spacing: 1px;
+
+    }
+
+    .lorem{
+        display:none;
+    }
+
+    .am1{
+        font-size:30px;
+        color:white;
+        top:620px;
+        left:590px;
+        letter-spacing: -1px;
+    }
+
+    .image{
+        top:640px;
+        margin-left:300px;
+        height: 60px;
+        width:60px;
+    }
+
+    .image1{
+        top:760px;
+        margin-left:300px;
+        height: 60px;
+        width:60px;
+    }
+
+   
+    .lap{
+        top:1300px;
+        position: absolute;
+        font-size: 35px;
+        left:650px;
+    }
+
+    
 }
